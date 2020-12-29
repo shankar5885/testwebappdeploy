@@ -59,4 +59,4 @@ stages:
         azureSubscription: 'SMT-SUB001 (aa748e82-e0df-42e3-ac20-f30b6a5077e0)'
         appType: 'webApp'
         WebAppName: 'testwebapp9475htg'
-        packageForLinux: '$$(System.ArtifactsDirectory)/drop/*.zip'
+        packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
